@@ -1,0 +1,13 @@
+prefix=D:/ap_cust/venv/Library
+exec_prefix=D:/ap_cust/venv/Library
+libdir=D:/ap_cust/venv/Library/lib
+sharedlibdir=D:/ap_cust/venv/Library/lib
+includedir=D:/ap_cust/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
